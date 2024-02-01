@@ -52,8 +52,13 @@ us_fiscal_lsuw |>
   estimate(S = 50000)
 
 # Now you are ready to analyze your model!
+file.edit("R/bsvars.Rmd")
 
-vignette("bsvars")
+
+# Find the vignette on GitHub
+# https://github.com/bsvars/bsvars-vignettes
+
+# END
 
 
 
